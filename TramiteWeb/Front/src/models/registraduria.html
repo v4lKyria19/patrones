@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style1.css">
+    
+</head>
+<body>
+    <div class="form-container">
+
+        <h2>Registraduría Nacional del Estado Civil</h2>
+        <p>Ingrese sus datos personales</p>
+
+        <form method="post" autocomplete="off">
+            <div class="form-group">
+                <div class="form-content">
+                    <label for="Documento">Tipo de Documento a tramitar</label>
+                    <select name="Documento">
+                    <option value="tarjeta">Tarjeta de Identidad</option>
+                    <option value="cedula">Cédula de ciudadanía</option>
+                    <option value="pasaporte">Pasaporte</option>
+                </select>
+
+                </div>
+                <div class="form-content">        
+                    <label for="NumeroIdentificacion">Numero de identificacion</label>
+                    <input type="text" id="identificacion" name="identificacion" placeholder="Numero de Identificacion" required><br>
+                </div>
+            </div> 
+            <div class="form-group">
+                <div class="form-content">   
+                    <label for="Name">Nombres</label>
+                    <input type="text" id="name" name="name" placeholder="Nombres" required><br>
+                </div>
+                <div class="form-content"> 
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required><br>
+                </div>
+            </div>    
+            <input class = "btn" type="submit" name="contact" value="Continuar">
+        </form>
+    </div>
+
+</body>
+</html>

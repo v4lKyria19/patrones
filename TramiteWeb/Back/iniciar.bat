@@ -1,0 +1,2 @@
+mvn test && mvn clean && mvn install && java -jar payara-micro-5.194.jar target/tramiteweb.war --port 8080
+cmd /k
